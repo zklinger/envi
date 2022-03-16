@@ -1,0 +1,27 @@
+[package]
+name = "envi"
+version = "0.1.0"
+edition = "2021"
+authors = ["Zoltan Klinger <zoltan.klinger@gmail.com>"]
+license = "MIT"
+description = "A simple CLI tool to manage environment variables for multiple environments"
+readme = "README.md"
+homepage = "https://github.com/zklinger/envi"
+repository = "https://github.com/zklinger/envi"
+keywords = ["cli", "manage", "environments", "variables"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dev-dependencies]
+assert_cmd = "2.0.4"
+assert_fs = "1.0.7"
+predicates = "2.1.1"
+serial_test = "0.4.0"
+
+[dependencies]
+anyhow = "1.0.53"
+serde_json = "1.0.79"
+serde_yaml = "0.8.23"
+shell-escape = "0.1.5"
+structopt = "0.3.26"
+toml = "0.5.8"

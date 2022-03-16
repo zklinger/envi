@@ -1,0 +1,9 @@
+# Defaults
+FOO: foo
+BAR: bar
+
+# Overrides
+local:
+  BAR: local_bar
+dev:
+  BAR: dev_bar

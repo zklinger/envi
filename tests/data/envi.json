@@ -1,0 +1,10 @@
+{
+  "FOO": "foo",
+  "BAR": "bar",
+  "local": {
+    "BAR": "local_bar"
+  },
+  "dev": {
+    "BAR": "dev_bar"
+  }
+}
